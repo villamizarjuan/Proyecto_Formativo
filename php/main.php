@@ -2,7 +2,7 @@
 	
 	# Conexion a la base de datos #
 	function conexion(){
-		$pdo = new PDO('mysql:host=localhost;dbname=INVENTARIO', 'root', '88173268');
+		$pdo = new PDO('mysql:host=localhost;dbname=INVENTARIO', 'root', '');
 		return $pdo;
 	}
 
